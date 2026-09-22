@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    font-family: Ariel ,sans-serif ;
+
+}
+header{
+    height: 180px;
+    padding: 45px;
+    padding-bottom: 0px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #1e3a5f;
+    border-bottom: 5px solid #f4a261;}
+header h1{
+    margin: 0px;
+    font-size: 42px;}
+header p{
+    font-size: 18px;}
+main{
+        width: 90%;
+        margin:45px auto;} 
+.intro{
+    width: 100%;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #d9e2ec;}
+.into h2{
+    font-size: 32px;
+    color: #1e3a5f;}
+
+.into p{
+    color: darkgray;
+    line-height: 1.6;
+}
+
+.cards-section{
+    width: 100%;
+}
+
+.cards-section h2{
+    width: 100%;
+    color: #1e3a5f;
+    font-size: 32px;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    gap: 50px;
+}
+.card{
+    border-top: 10px solid orangered;
+    border-bottom: 2px solid #d9e2ec;
+    border-left: 2px solid #d9e2ec;
+    border-right: 2px solid #d9e2ec;
+    background-color: white;
+    padding: 30px;
+
+}
+.cards h3{
+    font-size: 25px;
+    color: peru;
+}
+.cards p{
+    font-size: 15px;
+    color: gray;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+.featured{
+    margin-top: 45px;
+    width: auto;
+    background-color: #264653;
+    border: 5px solid #d9e2ec;
+    padding: 25px;
+    color: white;
+    
+}
+.featured h2{
+    font-size: 32px;
+}
+.featured p{
+    line-height: 1.6;
+    font-size: 18px;
+}
+footer{
+    height: 180px;
+    padding: 20px;
+    border-top: 5px solid orange;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #1e3a5f;
+    }
