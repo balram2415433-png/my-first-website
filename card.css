@@ -1,0 +1,35 @@
+article{
+    width: 1000px;
+    display: flex;
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+article div{
+    width: 400px;
+
+}
+article img{
+    height: 400px;
+    width: 400px;
+}
+@media(max-widrh:430px){
+    article{
+        flex-wrap: wrap;
+        
+    }
+}
+article div>h1{
+    text-align: center;
+    font-size: 40px;
+}
+article div>p{
+    text-align: center;
+    line-height: 1.6;
+}
